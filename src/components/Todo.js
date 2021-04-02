@@ -3,6 +3,7 @@ function Todo(props) {
     console.log("clicked");
     console.log(props.title);
   }
+
   return (
     <div className="card">
       <h2>{props.title}</h2>
